@@ -31,7 +31,8 @@ A smart station navigation ecosystem that includes:
     Used by railway staff to update facilities, reroute paths, and view analytics
 
 ## Architecture Diagram
-![Smart Station Navigation Ecosystem Diagram](https://github.com/user-attachments/assets/f2243444-9540-4839-80ca-736c55962e24)
+
+![BCO 856e25f1-182e-4201-9ab8-d544d89c6ba4](https://github.com/user-attachments/assets/97510bc7-b01f-44e5-9a59-e11704b0c977)
 
 ## Use Cases
 1.New Passenger: Locates platform and restrooms using 3D map on phone.
@@ -42,7 +43,7 @@ A smart station navigation ecosystem that includes:
 
 4.Admin Staff: Updates closed facilities or reroutes paths due to maintenance.
 
-![usecase](https://github.com/user-attachments/assets/f746fc01-ba72-4fba-adc0-1eb97d9f318d)
+![BCO e32e65b6-d101-4e4b-803e-b28917780583](https://github.com/user-attachments/assets/e9cb1be7-93f6-4586-9156-5317ef4f4383)
 
 
 
