@@ -25,13 +25,14 @@ Ministry of Railway
 
 ## Proposed Solution / Architecture Diagram
 
-![unnamed](https://github.com/user-attachments/assets/9dbe12dc-96d6-4d67-a7f1-b54782817ce0)
+![BCO a14671e3-af11-41c0-992c-db97f3a3da7b](https://github.com/user-attachments/assets/ec62e453-6294-4881-a24d-be1ac85536d5)
+
 
 
 ## Use Cases
 
+![image](https://github.com/user-attachments/assets/cd8471ff-a977-4aca-98e1-3227be4712e2)
 
-![unnamed](https://github.com/user-attachments/assets/f0a462d1-5905-4fc1-926c-43a4949c4b60)
 
 
 ## Technology Stack
