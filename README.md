@@ -60,5 +60,3 @@ Cloud Hosting (Firebase, AWS, or GCP)
 Railway API for live train and platform data
 
 Accessibility Libraries for screen readers and voice input
-
-
