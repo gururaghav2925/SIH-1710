@@ -1,8 +1,8 @@
 # Smart India Hackathon Workshop
-# Date:17-05-2025
-## Register Number:212223220027
-## Name: V Guru Raghav Ponjeevith
-## Problem Title: AR-Based Virtual Try-On for Shopping
+# Date: 17.05.2025
+## Register Number: 212223220027
+## Name: GURU RAGHAV PONJEEVITH V
+## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
 Background: Railway stations are complex environments with numerous facilities and locations such as ticket counters, platforms, restrooms, food courts, and waiting areas. Passengers often face difficulties in navigating these spaces, especially in large or unfamiliar stations. Efficient and user-friendly navigation systems are crucial for improving passenger experience, reducing congestion, and ensuring timely travel connections. Description: The problem involves developing a comprehensive navigation solution for railway stations that assists passengers in locating various facilities and destinations within the station premises. This includes creating detailed maps, providing real-time directions, and integrating features such as accessibility options for individuals with disabilities. The solution should be intuitive, easy to use, and accessible via multiple platforms, including mobile devices and digital kiosks. Key challenges include updating navigation information in real-time, ensuring accuracy, and accommodating the diverse needs of all passengers. Expected Solution: The expected solution is a multi-platform navigation system that provides detailed, real-time directions to all facilities and locations within a railway station. This system should include: A mobile application with 3D interactive maps and step-by-step navigation. Digital kiosks located throughout the station with touch-screen interfaces. Voice-guided navigation for visually impaired passengers. Regular updates to reflect changes in station layout and facility locations. Integration with existing railway apps and services for seamless user experience. The solution should enhance the overall passenger experience by reducing confusion, saving time, and improving accessibility within the station.
@@ -11,57 +11,54 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
-1️) Virtual Fashion Try-On: Users can try on clothes, shoes, and accessories using AR. The app scans their body and overlays selected outfits in real-time, ensuring accurate fit and visualization.
+Develop a multi-platform navigation system for railway stations that helps passengers locate facilities such as platforms, ticket counters, restrooms, and food courts using interactive 3D maps, voice navigation, and real-time updates via mobile apps and digital kiosks.
 
-2️) Makeup & Hair Try-On: AI-powered facial recognition allows users to apply virtual makeup, including lipstick, foundation, and eye makeup. Hair color try-on lets users preview different styles before making a decision.
+## Proposed Solution 
+A smart station navigation ecosystem that includes:
+  Mobile Application
+    3D interactive station map
+    Indoor GPS or Bluetooth-based location tracking
+    Step-by-step real-time navigation
+    Voice assistance for visually impaired
+    Multilingual support (English, Hindi, etc.)
 
-3️) Furniture & Home Decor Placement: Users can place furniture or home decor items in their space using AR, adjusting position, color, and materials for a realistic preview before purchasing.
+ Digital Kiosks
+    Installed at major entry and transit points
+    Touch-based UI with the same navigation features
+    QR code generation to transfer route to mobile
 
-4️) AI-Powered Size & Fit Recommendation: An AI-based body measurement system suggests the perfect clothing size based on the user's body structure, past purchases, and brand size charts.
+ Admin Dashboard
+    Used by railway staff to update facilities, reroute paths, and view analytics
 
-5️) Social Sharing & Feedback: Users can take AR snapshots of their try-ons and share them with friends for feedback before making a purchase. This feature enhances engagement and social validation.
-
-6️) E-Commerce Integration: The app seamlessly integrates with online stores, allowing users to purchase items directly from the AR view without switching platforms.
-
-## Proposed Solution / Architecture Diagram
-
-![BCO a14671e3-af11-41c0-992c-db97f3a3da7b](https://github.com/user-attachments/assets/ec62e453-6294-4881-a24d-be1ac85536d5)
-
-
+## Architecture Diagram
+![Smart Station Navigation Ecosystem Diagram](https://github.com/user-attachments/assets/f2243444-9540-4839-80ca-736c55962e24)
 
 ## Use Cases
+1.New Passenger: Locates platform and restrooms using 3D map on phone.
 
-![image](https://github.com/user-attachments/assets/cd8471ff-a977-4aca-98e1-3227be4712e2)
+2.Visually Impaired User: Uses voice-guided navigation to reach assistance counter.
+
+3.Kiosk User: Finds food court via touch-screen interface and receives a QR code to continue navigation on phone.
+
+4.Admin Staff: Updates closed facilities or reroutes paths due to maintenance.
+
+![usecase](https://github.com/user-attachments/assets/f746fc01-ba72-4fba-adc0-1eb97d9f318d)
 
 
 
 ## Technology Stack
+![417289572-54e47803-0dbe-4d8e-94bd-e44c3a1230d0](https://github.com/user-attachments/assets/8a523546-3a23-4db0-a881-aa6db5926dad)
 
- FRONTEND (Web App)
-React.js – Interactive UI/UX
-
-Three.js/WebGL – 3D rendering for AR
-
-8thWall / Google ARCore – WebAR support
-
- BACKEND
-Node.js + Firebase – User authentication & product data management
-
- AI & AR TECHNOLOGIES
-TensorFlow.js / OpenCV – Facial & body tracking
-
-Unity/Unreal Engine – Advanced 3D try-on for realistic clothing fit
-
-Google Mediapipe – Hand & face detection for accessories
 
 ## Dependencies
- 3D Model Creation – 15 days
- 
- AI & AR Integration – 20 days
- 
- E-Commerce API Integration – 10 days
- 
- Testing & Optimization – 10 days
- 
- Budget – ₹1,00,000
+BLE Beacons for indoor navigation
+
+Mapbox SDK or similar for station maps
+
+Cloud Hosting (Firebase, AWS, or GCP)
+
+Railway API for live train and platform data
+
+Accessibility Libraries for screen readers and voice input
+
 
